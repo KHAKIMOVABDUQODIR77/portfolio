@@ -1,16 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="stylesheet" href="./css/normalizw.css" />
-		<link rel="stylesheet" href="./fonts/" />
-	</head>
-	<body>
-		<header>header</header>
-		<main>main</main>
-		<footer>footer</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalizw.css" />
+    <link rel="stylesheet" href="./fonts/" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <div class="container site-header__container">
+          <a class="site-logo" href="">
+            <img
+              src="./Images/Starter.svg"
+              alt="site-logo"
+              width="210"
+              height="44"
+            />
+          </a>
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Blog</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Newsletter</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Twitter</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main-content">
+        <!-- HERO START -->
+        <div class="hero">
+          <div class="container hero-container">
+            <div class="hero__info">
+              <h1 class="hero__title">Hi there, I’m <span>Mubina</span>👋</h1>
+              <p class="hero__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+                temporibus architecto, perferendis a, sit reprehenderit quae
+                nihil maxime repellendus exercitationem doloremque doloribus
+                est! Distinctio perferendis soluta at, incidunt asperiores
+                cupiditate molestiae commodi aspernatur blanditiis, atque
+                laboriosam expedita molestias vitae esse aliquam modi sit .
+                <span>autem</span>.
+              </p>
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img
+                      class="social__img"
+                      src="./Images/Twitter.svg"
+                      alt="Twitter"
+                      width="60"
+                      height="60"
+                    />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img
+                      class="social__img"
+                      src="./Images/facebook.svg"
+                      alt="facebook"
+                      width="60"
+                      height="60"
+                    />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img
+                      class="social__img"
+                      src="./Images/in.svg"
+                      alt="in"
+                      width="60"
+                      height="60"
+                    />
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img
+                      class="social__img"
+                      src="./Images/Youtube.svg"
+                      alt="Youtube"
+                      width="60"
+                      height="60"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hero__img">
+              <img
+                src="./Images/Western Man.png"
+                alt="boy"
+                width="300"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- HERO END -->
+        <!-- RESENT Projects Start -->
+        <section class="recent-projects">
+          <div class="container">
+            <h2 class="recent-projects__title">
+              Recent <span> Projects</span>
+            </h2>
+            <ul class="recent-projects__list">
+              <li class="recent-projects__item">
+                <img
+                  class="recent-projects__img"
+                  src="./Images/project.png"
+                  alt=""
+                  width="250"
+                  height="232"
+                />
+                <div class="recent-projects__info">
+                  <div class="recent-projects__info-inner">
+                    <h4 class="recent-projects__info-title">Project1</h4>
+                    <button class="recent-projects__info-btn">
+                      Web Design
+                    </button>
+                  </div>
+                  <p class="recent-projects__info-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse bibendum. Nunc non posuere consectetur, justo
+                    erat semper enim, non hendrerit dui odio id enim.
+                  </p>
+                </div>
+              </li>
+              <li class="recent-projects__item">
+                <img
+                  class="recent-projects__img"
+                  src="./Images/project2.png"
+                  alt=""
+                  width="250"
+                  height="232"
+                />
+                <div class="recent-projects__info">
+                  <div class="recent-projects__info-inner">
+                    <h4 class="recent-projects__info-title">Project2</h4>
+                    <button
+                      class="recent-projects__info-btn recent-projects__info-btn-two"
+                    >
+                      Next.js
+                    </button>
+                  </div>
+                  <p class="recent-projects__info-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse bibendum. Nunc non posuere consectetur, justo
+                    erat semper enim, non hendrerit dui odio id enim.
+                  </p>
+                </div>
+              </li>
+              <li class="recent-projects__item">
+                <img
+                  class="recent-projects__img"
+                  src="./Images/project3.png"
+                  alt=""
+                  width="250"
+                  height="232"
+                />
+                <div class="recent-projects__info">
+                  <div class="recent-projects__info-inner">
+                    <h4 class="recent-projects__info-title">Project3</h4>
+                    <button
+                      class="recent-projects__info-btn recent-projects__info-btn-three"
+                    >
+                      Awesome feature
+                    </button>
+                  </div>
+                  <p class="recent-projects__info-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse bibendum. Nunc non posuere consectetur, justo
+                    erat semper enim, non hendrerit dui odio id enim.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Resent Projects -->
+      </main>
+    </div>
+  </body>
 </html>
